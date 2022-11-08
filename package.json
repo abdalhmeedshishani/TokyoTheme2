@@ -1,0 +1,35 @@
+{
+  "name": "tokyotheme",
+  "displayName": "TokyoNight-Theme",
+  "description": "TokyoNight-Theme",
+  "publisher": "Venom1230",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "keywords": [
+  "tokyonight-theme",
+  "TokyoNight-Theme",
+  "tokyonight",
+  "dark",
+  "theme"
+  ],
+  "license": "LICENSE.txt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdalhmeedshishani/TokyoTheme2.git"
+  },
+  "icon": "images/Tokyo.jpg",
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "TokyoNight-Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tokyo-Theme-color-theme.json"
+      }
+    ]
+  }
+}
